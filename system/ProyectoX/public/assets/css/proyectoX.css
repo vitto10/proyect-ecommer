@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+footer {
+    background-image: url("../img/gamer.jpg");
+}
+@media screen and (max-width: 600px) {
+    footer{
+    background: white;
+    }
+}
+
+.botonesnav {
+    background-color: rgb(49, 9, 49);
+    margin-top: 6px;
+    margin-left: 3px;
+}
+
+.buscador {
+    background-color: black;
+    width: 400px;
+    color: white;
+}
+
+.buscador1 {
+    background-color: black;
+    width: 200px;
+    color: white;
+}
+
+#menu {
+    background-color: white;
+}
+
+.blanco {
+    color: black;
+}
+
+.separador {
+    margin-bottom: 50px;
+}
+
+.hipervinculo {
+    text-decoration: none;
+    color: black;
+}
+
+.hipervinculo:hover {
+    color: black;
+}
+
+.backnews {
+    background-color: white;
+    padding: 15px;
+}
+
+.margen {
+    margin: 10px;
+    border-color: rgb(49, 9, 49);
+    border-style: solid;
+}

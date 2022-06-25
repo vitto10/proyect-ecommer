@@ -1,0 +1,11 @@
+CRITICAL - 2022-06-01 15:01:20 --> Undefined variable: nombre_user
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\nav.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/nav', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_controller.php(39): view('/front/nav')
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_controller->formValidation()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_controller))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

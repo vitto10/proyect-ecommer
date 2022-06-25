@@ -1,0 +1,396 @@
+CRITICAL - 2022-06-08 01:47:33 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::netName()
+#0 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->formValidation()
+#1 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#2 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-08 01:47:51 --> Undefined variable: session
+#0 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->formValidation()
+#2 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 01:48:21 --> Undefined variable: usuario
+#0 C:\xampp\htdocs\ProyectoX\app\Views\back\CRUD\productos\crudProductos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('back/CRUD/produ...', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(14): view('back/CRUD/produ...', Array)
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->index()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 01:52:14 --> Invalid file: back/CRUD/crudProductos.php
+#0 C:\xampp\htdocs\ProyectoX\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/CRUD/crudP...')
+#1 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('back/CRUD/crudP...', Array, true)
+#2 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(113): view('back/CRUD/crudP...', Array)
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->Eliminados()
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 01:52:56 --> Invalid file: back/CRUD/crudProductos.php
+#0 C:\xampp\htdocs\ProyectoX\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/CRUD/crudP...')
+#1 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('back/CRUD/crudP...', Array, true)
+#2 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(113): view('back/CRUD/crudP...', Array)
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->Eliminados()
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 01:57:51 --> Class 'App\Controllers\usuarios_model' not found
+#0 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->borrar('5')
+#1 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#2 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-08 02:02:50 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\ProyectoX\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(44): CodeIgniter\HTTP\Files\UploadedFile->move('public/assets/u...', '1654671770_a886...')
+#2 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->formValidation()
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 02:03:18 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\ProyectoX\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(44): CodeIgniter\HTTP\Files\UploadedFile->move('public/assets/u...', '1654671798_fc68...')
+#2 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->formValidation()
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 02:10:34 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\ProyectoX\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(44): CodeIgniter\HTTP\Files\UploadedFile->move('public/assets/u...', '1654672234_5824...')
+#2 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->formValidation()
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 02:15:14 --> Undefined variable: nombre_user
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\nav.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/nav', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(39): view('/front/nav')
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->formValidation()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 02:15:21 --> Undefined variable: nombre_user
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\nav.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/nav', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(39): view('/front/nav')
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->formValidation()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 02:16:08 --> Undefined variable: nombre_user
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\nav.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/nav', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(39): view('/front/nav')
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->formValidation()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 02:35:39 --> Undefined variable: nombre_user
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\nav.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/nav', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(39): view('/front/nav')
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->formValidation()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 02:38:43 --> Undefined variable: nombre_user
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\nav.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/nav', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(39): view('/front/nav')
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->formValidation()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 02:39:08 --> Undefined variable: nombre_user
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\nav.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/nav', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(39): view('/front/nav')
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->formValidation()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 02:39:22 --> Undefined variable: nombre_user
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\nav.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/nav', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(39): view('/front/nav')
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->formValidation()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 02:43:38 --> Undefined variable: nombre_user
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\nav.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/nav', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(41): view('/front/nav')
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->formValidation()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 02:46:20 --> Undefined variable: nombre_user
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\nav.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/nav', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_controller.php(39): view('/front/nav')
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_controller->formValidation()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_controller))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 05:26:06 --> Undefined variable: producto
+#0 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->Actualizar()
+#2 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 05:26:29 --> Undefined variable: producto
+#0 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->Actualizar()
+#2 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 06:06:03 --> Undefined variable: imagen_vieja
+#0 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->Actualizar()
+#2 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 06:06:21 --> Undefined variable: imagen_vieja
+#0 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->Actualizar()
+#2 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 06:06:25 --> Undefined variable: imagen_vieja
+#0 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->Actualizar()
+#2 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 06:09:24 --> unlink(public/assets/uploads1654681920_4693814142d517a270ec.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(116): unlink('public/assets/u...')
+#2 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->Actualizar()
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 06:09:56 --> unlink(public/assets/uploads1654681920_4693814142d517a270ec.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(116): unlink('public/assets/u...')
+#2 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->Actualizar()
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 06:10:05 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\ProyectoX\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(119): CodeIgniter\HTTP\Files\UploadedFile->move('public/assets/u...', '1654686605_b988...')
+#2 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->Actualizar()
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 06:10:46 --> unlink(public/assets/uploads/1654681920_4693814142d517a270ec.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/a...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(116): unlink('public/assets/u...')
+#2 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->Actualizar()
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 06:11:09 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\ProyectoX\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_prod_controller.php(119): CodeIgniter\HTTP\Files\UploadedFile->move('public/assets/u...', '1654686669_8df9...')
+#2 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_prod_controller->Actualizar()
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_prod_controller))
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 23:19:18 --> Undefined variable: datos
+#0 C:\xampp\htdocs\ProyectoX\app\Controllers\Home.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ProyectoX\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#5 [internal function]: spl_autoload_call('App\\Controllers...')
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#8 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-08 23:20:06 --> Class 'App\Controllers\productos_model' not found
+#0 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\Home->catalogo()
+#1 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-08 23:30:41 --> Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\catalogo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/catalogo', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\Home.php(61): view('/front/catalogo', Array)
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\Home->catalogo()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 23:31:05 --> Use of undefined constant categorias - assumed 'categorias' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\catalogo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/catalogo', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\Home.php(61): view('/front/catalogo', Array)
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\Home->catalogo()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 23:33:14 --> Undefined offset: 0
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\catalogo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/catalogo', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\Home.php(61): view('/front/catalogo', Array)
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\Home->catalogo()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 23:33:14 --> Undefined offset: 0
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\catalogo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/catalogo', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\Home.php(61): view('/front/catalogo', Array)
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\Home->catalogo()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 23:33:15 --> Undefined offset: 0
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\catalogo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/catalogo', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\Home.php(61): view('/front/catalogo', Array)
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\Home->catalogo()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 23:33:26 --> Array to string conversion
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\catalogo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/catalogo', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\Home.php(61): view('/front/catalogo', Array)
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\Home->catalogo()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 23:33:47 --> Undefined offset: 1
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\catalogo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/catalogo', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\Home.php(61): view('/front/catalogo', Array)
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\Home->catalogo()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 23:33:47 --> Undefined offset: 1
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\catalogo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/catalogo', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\Home.php(61): view('/front/catalogo', Array)
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\Home->catalogo()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 23:36:25 --> Undefined index: categoria
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\catalogo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/catalogo', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\Home.php(61): view('/front/catalogo', Array)
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\Home->catalogo()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 23:36:26 --> Undefined index: categoria
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\catalogo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/catalogo', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\Home.php(61): view('/front/catalogo', Array)
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\Home->catalogo()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 23:36:27 --> Undefined index: categoria
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\catalogo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/catalogo', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\Home.php(61): view('/front/catalogo', Array)
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\Home->catalogo()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 23:47:22 --> Use of undefined constant categorias - assumed 'categorias' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\ProyectoX\app\Views\front\catalogo.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/front/catalogo', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\Home.php(61): view('/front/catalogo', Array)
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\Home->catalogo()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

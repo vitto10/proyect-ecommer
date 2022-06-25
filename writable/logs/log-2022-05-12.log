@@ -1,0 +1,21 @@
+CRITICAL - 2022-05-12 01:39:13 --> Object of class CodeIgniter\Session\Session could not be converted to string
+#0 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/back/usuarios/...', Array, true)
+#3 C:\xampp\htdocs\ProyectoX\app\Controllers\Login_controller.php(14): view('/back/usuarios/...')
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\Login_controller->login()
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_controller))
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-12 01:42:24 --> Undefined variable: validation
+#0 C:\xampp\htdocs\ProyectoX\app\Views\back\usuarios\login.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/back/usuarios/...', Array, true)
+#4 C:\xampp\htdocs\ProyectoX\app\Controllers\Login_controller.php(14): view('/back/usuarios/...')
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\Login_controller->login()
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login_controller))
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

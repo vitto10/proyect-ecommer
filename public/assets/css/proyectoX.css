@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: rgb(255, 255, 255);
+}
+
+nav {
+    padding-top: 100px;
+}
+
+footer {
+    background-image: url("../img/gamer.jpg");
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        background: white;
+    }
+}
+
+.botonesnav {
+    background-color: rgb(49, 9, 49);
+    margin-top: 6px;
+    margin-left: 3px;
+}
+
+.morado {
+    background-color: rgb(49, 9, 49);
+}
+
+.buscador {
+    background-color: black;
+    width: 400px;
+    color: white;
+}
+
+.buscador1 {
+    background-color: black;
+    width: 200px;
+    color: white;
+}
+
+#menu {
+    background-color: white;
+}
+
+.blanco {
+    color: black;
+}
+
+.separador {
+    margin-bottom: 50px;
+}
+
+.hipervinculo {
+    text-decoration: none;
+    color: black;
+}
+
+.hipervinculo:hover {
+    color: black;
+}
+
+.backnews {
+    background-color: white;
+    padding: 15px;
+}
+
+.margen {
+    margin: 10px;
+    border-color: rgb(49, 9, 49);
+    border-style: solid;
+}
+
+.negro {
+    background-color: black;
+}
+
+/*buscador de productos*/
+#div-buscador{
+    position: fixed;
+}
+
+#resultado{
+    position: fixed;
+    margin-left: 12px;
+    top: 80px;
+    width: 400px;
+    background: white;
+    z-index: 2;
+}
+
+#cover {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+    display: none;
+}

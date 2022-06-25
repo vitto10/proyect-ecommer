@@ -1,0 +1,95 @@
+CRITICAL - 2022-05-24 21:02:48 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/crudUsuarios', Array, true)
+#2 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_controller.php(12): view('/crudUsuarios')
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_controller->index()
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_controller))
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-24 22:41:17 --> Call to undefined function mysql_connect()
+#0 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/crudUsuarios', Array, true)
+#3 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_controller.php(12): view('/crudUsuarios')
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_controller->index()
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_controller))
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-24 22:56:06 --> Call to undefined function mysql_connect()
+#0 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/crudUsuarios', Array, true)
+#3 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_controller.php(14): view('/crudUsuarios', Array)
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_controller->index()
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_controller))
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-24 22:56:46 --> print_r() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r() expec...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\ProyectoX\app\Views\crudUsuarios.php(22): print_r()
+#2 C:\xampp\htdocs\ProyectoX\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ProyectoX\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/crudUsuarios', Array, true)
+#5 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_controller.php(14): view('/crudUsuarios', Array)
+#6 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_controller->index()
+#7 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_controller))
+#8 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-24 23:27:58 --> Invalid file: /crudUsuarios.php
+#0 C:\xampp\htdocs\ProyectoX\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/crudUsuarios.p...')
+#1 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/crudUsuarios', Array, true)
+#2 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_controller.php(14): view('/crudUsuarios', Array)
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_controller->index()
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_controller))
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-24 23:28:00 --> Invalid file: /crudUsuarios.php
+#0 C:\xampp\htdocs\ProyectoX\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/crudUsuarios.p...')
+#1 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/crudUsuarios', Array, true)
+#2 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_controller.php(14): view('/crudUsuarios', Array)
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_controller->index()
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_controller))
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-24 23:29:22 --> Invalid file: /crudUsuarios.php
+#0 C:\xampp\htdocs\ProyectoX\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/crudUsuarios.p...')
+#1 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/crudUsuarios', Array, true)
+#2 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_controller.php(14): view('/crudUsuarios', Array)
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_controller->index()
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_controller))
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-24 23:30:21 --> Invalid file: /crearUsuario.php
+#0 C:\xampp\htdocs\ProyectoX\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/crearUsuario.p...')
+#1 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/crearUsuario', Array, true)
+#2 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_controller.php(21): view('/crearUsuario')
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_controller->crear()
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_controller))
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-24 23:30:27 --> Invalid file: /actualizarUsuario.php
+#0 C:\xampp\htdocs\ProyectoX\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/actualizarUsua...')
+#1 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/actualizarUsua...', Array, true)
+#2 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_controller.php(28): view('/actualizarUsua...')
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_controller->actualizar()
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_controller))
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-24 23:30:43 --> Invalid file: /crudUsuarios.php
+#0 C:\xampp\htdocs\ProyectoX\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/crudUsuarios.p...')
+#1 C:\xampp\htdocs\ProyectoX\system\Common.php(1089): CodeIgniter\View\View->render('/crudUsuarios', Array, true)
+#2 C:\xampp\htdocs\ProyectoX\app\Controllers\crud_controller.php(14): view('/crudUsuarios', Array)
+#3 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(832): App\Controllers\crud_controller->index()
+#4 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\crud_controller))
+#5 C:\xampp\htdocs\ProyectoX\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ProyectoX\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
